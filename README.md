@@ -36,6 +36,9 @@ vim $PROFILE.CurrentUserCurrentHost
 .......................................................
 ```
 
+## install oh my posh
+
+```
 Install-Module posh-git -Scope CurrentUser -Force
 Install-Module oh-my-posh -Scope CurrentUser -Force
 vim .config/powershell/user_profile.ps1
@@ -46,21 +49,26 @@ Import-Module oh-my-posh
 \# Theme
 Set-PoshPrompt paradox
 ........................................................
+```
 
+## install terminal icons
+
+```
 Install-Module -Name Terminal-Icons -Repository PSGallery
 vim .config/powershell/user_profile.ps1
 ............in user_profile.ps1 add these...............
-
 \# Terminal Icons
-
 Import-Module -Name Terminal-Icons
 ........................................................
+```
 
+## set theme
+
+```
 Get-PoshThemes
 vim .config/powershell/user_profile.ps1
 ............in user_profile.ps1 add these...............
-
 \# Theme
-
 Set-PoshPrompt Theme_you_like
 ........................................................
+```
