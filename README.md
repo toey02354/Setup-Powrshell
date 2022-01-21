@@ -25,16 +25,13 @@ Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 Set-Alias c clear
 Set-Alias touch New-Item
 .......................................................
-```
-
-## close and open terminal to update configs
-
-```
 vim $PROFILE.CurrentUserCurrentHost
 ........in $PROFILE.CurrentUserCurrentHost.............
 . $env:USERPROFILE\.config\powershell\user_profile.ps1
 .......................................................
 ```
+
+** close and open terminal to update configs **
 
 ## install oh my posh
 
