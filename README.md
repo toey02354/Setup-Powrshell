@@ -15,7 +15,7 @@ scoop install neovim gcc
 mkdir .config/powershell
 nvim .config/powershell/user_profile.ps1
 .................in user_profile.ps1...................
-\# Alias
+# Alias
 Set-Alias vim nvim
 Set-Alias ll ls
 Set-Alias g git
@@ -43,10 +43,10 @@ Install-Module posh-git -Scope CurrentUser -Force
 Install-Module oh-my-posh -Scope CurrentUser -Force
 vim .config/powershell/user_profile.ps1
 ............in user_profile.ps1 add these...............
-\# Prompt
+# Prompt
 Import-Module posh-git
 Import-Module oh-my-posh
-\# Theme
+# Theme
 Set-PoshPrompt paradox
 ........................................................
 ```
@@ -57,7 +57,7 @@ Set-PoshPrompt paradox
 Install-Module -Name Terminal-Icons -Repository PSGallery
 vim .config/powershell/user_profile.ps1
 ............in user_profile.ps1 add these...............
-\# Terminal Icons
+# Terminal Icons
 Import-Module -Name Terminal-Icons
 ........................................................
 ```
@@ -68,7 +68,7 @@ Import-Module -Name Terminal-Icons
 Get-PoshThemes
 vim .config/powershell/user_profile.ps1
 ............in user_profile.ps1 add these...............
-\# Theme
+# Theme
 Set-PoshPrompt Theme_you_like
 ........................................................
 ```
