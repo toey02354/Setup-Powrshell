@@ -1,7 +1,7 @@
 # Setup-Powrshell
 
-\# install scoop
-iwr -useb get.scoop.sh | iex
+\#\n install scoop
+\niwr -useb get.scoop.sh | iex
 scoop install sudo jq curl
 scoop install nvim gcc
 scoop install neovim gcc
