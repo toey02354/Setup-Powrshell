@@ -2,13 +2,16 @@
 
 ## install scoop
 
+```
 iwr -useb get.scoop.sh | iex
 scoop install sudo jq curl
 scoop install nvim gcc
 scoop install neovim gcc
+```
 
 ## config commands
 
+```
 mkdir .config/powershell
 nvim .config/powershell/user_profile.ps1
 .................in user_profile.ps1...................
@@ -22,13 +25,16 @@ Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 Set-Alias c clear
 Set-Alias touch New-Item
 .......................................................
+```
 
 ## close and open terminal to update configs
 
+```
 vim $PROFILE.CurrentUserCurrentHost
 ........in $PROFILE.CurrentUserCurrentHost.............
 . $env:USERPROFILE\.config\powershell\user_profile.ps1
 .......................................................
+```
 
 Install-Module posh-git -Scope CurrentUser -Force
 Install-Module oh-my-posh -Scope CurrentUser -Force
