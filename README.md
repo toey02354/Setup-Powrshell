@@ -25,6 +25,7 @@ Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 Set-Alias c clear
 Set-Alias touch New-Item
 .......................................................
+
 vim $PROFILE.CurrentUserCurrentHost
 ........in $PROFILE.CurrentUserCurrentHost.............
 . $env:USERPROFILE\.config\powershell\user_profile.ps1
