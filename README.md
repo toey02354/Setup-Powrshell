@@ -81,5 +81,11 @@ vim .config/powershell/user_profile.ps1
 # PSReadLine
 Import-Module PSReadLine
 Set-PSReadLineOption -PredictionSource History
+
+# Utilities
+function which ($command) {
+ Get-Command -Name $command -ErrorAction SilentlyContinue |
+ Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
+}
 ........................................................
 ```
