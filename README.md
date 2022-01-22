@@ -80,5 +80,6 @@ vim .config/powershell/user_profile.ps1
 ............in user_profile.ps1 add these...............
 # PSReadLine
 Import-Module PSReadLine
+Set-PSReadLineOption -PredictionSource History
 ........................................................
 ```
