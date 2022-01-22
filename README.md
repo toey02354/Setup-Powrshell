@@ -70,3 +70,10 @@ vim .config/powershell/user_profile.ps1
 Set-PoshPrompt Theme_you_like
 ........................................................
 ```
+
+# set PSReadLine
+
+```
+Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+Set-PSReadLineOption -PredictionSource History
+```
